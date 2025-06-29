@@ -1,4 +1,4 @@
-*{
+* { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -30,11 +30,9 @@ body {
 
 .hamburger {
   display: none;
-  width: 30px;
   height: auto;
   cursor: pointer;
   width: 40px;
-  height: auto;
   border-radius: 5px;
   color: red;
 }
