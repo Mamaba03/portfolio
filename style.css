@@ -13,7 +13,7 @@ body {
   height: 150vh;
 }
 
-.toolbar{
+.toolbar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,40 +22,43 @@ body {
   margin-bottom: 20px;
 }
 
-.logo{
+.logo {
   color: #e6e6e9;
   font-size: 1.5rem;
   margin-bottom: 50px;
 }
 
-.hamburger{
+.hamburger {
   display: none;
   width: 30px;
   height: auto;
   cursor: pointer;
+  width: 40px;
+  height: auto;
+  border-radius: 5px;
+  color: red;
 }
 
-.h{
-  font-family: 'graphik',sans-serif;
+.h {
+  font-family: 'graphik', sans-serif;
   font-size: 42px;
-  line-height:  150%;
+  line-height: 150%;
   color: antiquewhite;
   margin-bottom: 20px;
-  
 
 }
 
-.p{
-  font-family: 'nunito san',sans-serif;
+.p {
+  font-family: 'nunito san', sans-serif;
   font-size: 16px;
   color: antiquewhite;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   margin-bottom: 20px;
 }
 
-.service-btn{
+.service-btn {
   font-size: 16px;
-  padding: 10px 20px;
+  padding: 10px, 20px;
   background-color: lightblue;
   color: white;
   border: none;
@@ -67,28 +70,21 @@ body {
   margin-top: 20px;
 }
 
-.hamburger{
-  width: 40px;
-  height: auto;
-  border-radius: 5px;
-  color: red;
-}
-
-.img-position{
+.img-position { 
   display: block;
   margin-left: auto;
   margin-right: 0;
   margin-top: 50px;
 }
 
-.img-position2{
+.img-position2 {
   display: block;
   margin-right: auto;
   margin-left: 0;
   margin-top: 5px;
 }
 
-.img-position4{
+.img-position4 {
   display: block;
   margin-right: 0;
   margin-left: auto;
