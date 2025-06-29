@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# portfolio
-=======
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -50,8 +46,6 @@
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link]( https://github.com/Mamaba03/portfolio.git)
 
@@ -132,8 +126,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome! please open an issue or submit a pull request
@@ -160,4 +152,3 @@ This project is [MIT](./LICENSE) licensed.
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
->>>>>>> setup_and_mobile_first
