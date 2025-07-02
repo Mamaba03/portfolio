@@ -149,7 +149,7 @@ body {
   font-size: 0.9rem;
 }
 
-.works{
+.works {
   max-width: 800px;
   margin: auto;
   padding: 20px;
@@ -166,10 +166,10 @@ body {
   justify-content: center;
   margin: 20px 0;
   padding: 10px;
-  border:1px solid #9494e4;
+  border: 1px solid #9494e4;
 }
 
-.FB{
+.FB {
   border-radius: 5px;
   margin-top: 10px;
   background-color: #9494e4;
@@ -180,25 +180,26 @@ body {
   color: white;
 }
 
-.project{
+.project {
   flex-direction: column;
 }
 
-.project p{
+.project p {
   display: flex;
   justify-content: center;
   font-size: bold;
   gap: 5px;
 }
-.HC{
-  width:50px;
+
+.HC {
+  width: 50px;
   padding: 2px;
   background: rgb(190, 190, 202);
   border-radius: 3px;
-
 }
-.CC{
-  width:50px;
+
+.CC {
+  width: 50px;
   background: rgb(190, 190, 202);
   border-radius: 3px;
   padding: 2px;
