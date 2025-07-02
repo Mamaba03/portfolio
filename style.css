@@ -177,11 +177,6 @@ body {
   padding: 10px;
   color: white;
   cursor: pointer;
-  color: white;
-}
-
-.project {
-  flex-direction: column;
 }
 
 .project p {
