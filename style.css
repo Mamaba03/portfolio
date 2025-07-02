@@ -70,17 +70,17 @@ body {
   border: none;
 }
 
-.about h2{
+.about h2 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.about{
+.about {
   padding: 3rem 5%;
 }
 
-.about-content{
+.about-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,7 +88,7 @@ body {
   text-align: center;
 }
 
-.about-content p{
+.about-content p {
   max-width: 500px;
   font-size: 1rem;
 }
@@ -103,7 +103,7 @@ body {
   color: #fff;
 }
 
-.about-list{
+.about-list {
   display: grid;
   flex-direction: column;
   gap: 2rem;
@@ -111,7 +111,7 @@ body {
   width: 100;
 }
 
-.about-card{
+.about-card {
   background-color: #0f0f1b;
   border: 1px solid #444;
   border-radius: 5px;
@@ -120,21 +120,20 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-
 }
 
-.about-card img{
+.about-card img {
   width: 50px;
   height: 50px;
   margin-bottom: 1rem;
 }
 
-.about-card h3{
+.about-card h3 {
   font-size: 1.35rem;
   color: #172b4d
 }
 
-.tags{
+.tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -142,7 +141,7 @@ body {
   list-style: none;
 }
 
-.tags li{
+.tags li {
   background-color: #9494e4;
   color: white;
   padding: 0.5rem 1rem;
