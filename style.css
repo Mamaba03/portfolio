@@ -149,12 +149,18 @@ body {
   font-size: 0.9rem;
 }
 
-.works {
+.Works {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
   max-width: 800px;
   margin: auto;
   padding: 20px;
 }
 
+.Works h2{
+  text-align: center;
+}
 .placeholder {
   width: 100%;
   height: 200px;
@@ -162,22 +168,11 @@ body {
 }
 
 .project {
-  display: grid;
+  display: flexbox;
   justify-content: center;
-  margin: 20px 0;
-  padding: 10px;
   border: 1px solid #9494e4;
 }
 
-.FB {
-  border-radius: 5px;
-  margin-top: 10px;
-  background-color: #9494e4;
-  border: none;
-  padding: 10px;
-  color: white;
-  cursor: pointer;
-}
 
 .project p {
   display: flex;
@@ -186,16 +181,34 @@ body {
   gap: 5px;
 }
 
-.HC {
-  width: 50px;
-  padding: 2px;
-  background: rgb(190, 190, 202);
-  border-radius: 3px;
+.second-tag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  list-style: none;
 }
 
-.CC {
-  width: 50px;
-  background: rgb(190, 190, 202);
-  border-radius: 3px;
-  padding: 2px;
+.second-tag li {
+  display: flex;
+  justify-content: center;
+  background-color: #9494e4;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+
+.FB {
+  background-color: #9494e4;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  height: auto;
+  padding: 4px 12px;
+  margin: 20px auto 0 auto;
+  border-radius: 8px;
+  font-size: 0.9rem;
 }
