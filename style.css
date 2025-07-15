@@ -204,12 +204,10 @@ body {
   align-self: center;
 }
 
-.contact-container h1{
-  font-size: 90px;
-  color: #ffff;
+.contact-container h1 {
   font-size: 1.5rem;
+  color: #ffff;
   line-height: 1.4;
-  
 }
 
 .contact-form  {
@@ -225,10 +223,9 @@ body {
   border: 16px;
   border-radius: 5px;
   padding: 10px;
-  
- }
+  }
 
- .contact-form textarea {
+  .contact-form textarea {
   resize: vertical;
   min-height: 90px
 }
