@@ -201,12 +201,12 @@
         action="https://formspree.io/f/xwpqedvo"
         method="post"
       >
-        <input type="text" id="name" name="user-name" placeholder="Full Name" />
-        <input type="email" name="email" placeholder="Your email" />
+        <input type="text" id="name" name="user-name" placeholder="Full Name" maxlength="30"required>
+        <input type="email" name="email" placeholder="your@gmail.com"required>
         <!--<input type="email" id="mail" mail="user-email" value="Email address" />
     -->
-        <textarea id="msg" placeholder="user-message">
-          Hey i'd like to connect to ....</textarea
+        <textarea id="msg" placeholder="user-message" maxlength="500"required>
+         Hey i'd like to connect to ...."></textarea
         >
         <button class="btn" type="submit">Get in touch</button>
       </form>
